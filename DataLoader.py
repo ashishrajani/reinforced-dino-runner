@@ -12,7 +12,8 @@ scores_file_path = "./output/scores_df.csv"
 
 class DataLoader:
 
-    def __init__(self):
+    def __init__(self, init_cache=False):
+        self.init_cache()
         # Initialize log structures from file if exists else create new
         self.loss_df = pd.read_csv(loss_file_path) if os.path.isfile(loss_file_path) else pd.DataFrame(columns=['loss'])
         self.scores_df = pd.read_csv(scores_file_path) if os.path.isfile(loss_file_path) else pd.DataFrame(columns=['scores'])
