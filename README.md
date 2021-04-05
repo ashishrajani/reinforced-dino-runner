@@ -34,10 +34,6 @@ Run `visualize_progress.ipynb` file.
 
 ### 4. Screenshots
 
-[comment]: <> (<img src="https://media.wired.com/photos/5926db217034dc5f91becd6b/master/w_582,c_limit/so-logo-s.jpg" width="250">)
-
-[comment]: <> (<img src="./assets/screen_shot_1.png" width="250"/>)
-
-![Alt text](assets/screen_shot_1.png?raw=true "Original Screenshot")
-![Alt text](assets/screen_shot_2.png?raw=true "Processed Screenshot")
-![Alt text](assets/screen_shot_3.png?raw=true "Combined Screenshot")
+<img src="https://i.postimg.cc/JzL0s5Wx/screen-shot-1.png" width="200" height="100" align="left">
+<img src="https://i.postimg.cc/Z5xRpvbS/screen-shot-2.png" width="200" height="100" align="left">
+<img src="https://i.postimg.cc/q7mvZf6D/screen-shot-3.png" width="200" height="100" align="left">
