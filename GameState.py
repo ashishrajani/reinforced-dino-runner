@@ -33,7 +33,7 @@ class GameState:
         reward = 0.1
         is_over = False
 
-        # game over
+        # perform action { action[0]: Do Nothing; action[1]: Jump }
         if actions[1] == 1:
             print('Jump')
             self._agent.jump()
@@ -45,11 +45,14 @@ class GameState:
 
         if self._agent.is_crashed():
             print('crashed')
+
             # log the score when game is over
             self._data_loader.store_scores(score)
-            self._game.restart()
+
             reward = -1
             is_over = True
+
+            self._game.restart()
 
         # return the Experience tuple
         return image, reward, is_over
